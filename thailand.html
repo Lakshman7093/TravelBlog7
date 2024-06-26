@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAVEL</title>
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="india.css">
+    <script src="india.js" defer></script>
+    <link rel="icon" href="travel1.ico">
+
+</head>
+<body onload="colo()" >
+    <div id="a">
+        <video src="thailand.mp4" autoplay muted loop id="india"></video>
+        <h1 id="heading"> Travelled Image Gallery</h1>
+
+    </div>
+    <div id="bigscreen" class="fullscreenimg" style="display:none" onclick="imgV()">
+        <img id="fullimg" src="./pics/elephant.jpg">
+        <h1 id="imgheading">Heading</h1>
+        <p id="imgparagraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut perferendis quia aperiam consequatur obcaecati porro, id incidunt suscipit optio natus maiores architecto unde eaque sit quibusdam temporibus, tempora quasi officiis?
+        </p>
+    </div> 
+    <div id="navbar">
+        <ul id="mainlist">
+            <li class="li"><a href="#">Home</a></li>
+            <li class="li" id="sublistplace">Places
+                <ul id="sublist">
+                    <li class="sli"> <a href="india.html">India</a></li>
+                    <li class="sli" > <a href="dubai.html"> Dubai</a></li>
+                    <li class="sli" > <a href="srilanka.html"> Srilanka</a></li>
+                    <li class="sli" > <a href="#">Thailand</a></li>
+                    
+                </ul>
+            </li>
+            <li class="li"><a href="#">Info</a></li>
+            <li class="li"><a  href="Login.html">Logout</a></li>
+        </ul>
+    </div>
+        <div class="bodyofgallary">
+            <img src="chiangmai.jpg" onclick="imgK(this.src,'CHIANGAMAICITY','<a href=https://www.google.com/maps/place/Chiang+Mai,+Mueang+Chiang+Mai+District,+Chiang+Mai,+Thailand/@18.7942328,98.8864367,12z/data=!3m1!4b1!4m6!3m5!1s0x30da3a7e90bb6f5d:0x98d46270a59b4367!8m2!3d18.7883439!4d98.9853008!16zL20vMDFocjU4> DIRCTION</a>')" >
+            <img src="bankkok.png" onclick="imgK(this.src,'BANKKOK','<a href=https://www.google.com/maps/place/Bangkok,+Thailand/@13.7245601,100.493024,11z/data=!3m1!4b1!4m6!3m5!1s0x311d6032280d61f3:0x10100b25de24820!8m2!3d13.7563309!4d100.5017651!16zL20vMGZuMmc>DIRCTION</a>')">
+            <img src="phiphiislands.png" onclick="imgK(this.src,'PHIPHIISLANDS','<a href=https://www.google.com/maps/search/phi+phi+island+thailand/@8.9616047,97.8781922,8z/data=!3m1!4b1>DIRCTION</a>')"> 
+            <img src="khailak.png" onclick="imgK(this.src,'KHAOLAK','<a href=https://www.google.com/maps/place/Khao+Lak,+Phang-nga,+Thailand/@8.6852009,98.195172,12z/data=!3m1!4b1!4m6!3m5!1s0x3050e912c0f5690b:0xcf6c5b49dad90981!8m2!3d8.7039641!4d98.2582605!16zL20vMDR0eV9n> DIRCTION</a>')">
+            <img src="phuket.png" onclick="imgK(this.src,'PHUTKET','<a href=https://www.google.com/maps/place/Phuket,+Thailand/@7.830245,98.0797313,10z/data=!3m1!4b1!4m6!3m5!1s0x305031e2c462524f:0xe9ca9a85063dba21!8m2!3d7.9519331!4d98.3380884!16zL20vMDFqYjdn> DIRCTION</a>')">
+            <img src="kohlipe.png" onclick="imgK(this.src,'KOHLIPE','<a href=https://www.google.com/maps/place/Ko+Lipe/@6.4877047,99.2886962,15z/data=!3m1!4b1!4m6!3m5!1s0x304c04b682540c8f:0xef2301cf0a9d3394!8m2!3d6.4885717!4d99.3048959!16s%2Fm%2F04jn2hz>DIRCTION</a>')">
+            <img src="thani.png" onclick="imgK(this.src,'UDONTHANKI','<a href=https://www.google.com/maps/place/Udon+Thani,+Mueang+Udon+Thani+District,+Udon+Thani,+Thailand/@17.3685289,102.7305602,12z/data=!3m1!4b1!4m6!3m5!1s0x31237641e81572a3:0x5ba46d1afe6c1f17!8m2!3d17.3646969!4d102.8158924!16zL20vMDFkemdk> DIRCTION</a>')">
+            <img src="thegrandplacedubai.png" onclick="imgK(this.src,'THEGRANDPLACE','<a href=https://www.google.com/maps/place/The+Grand+Palace/@13.7498558,100.4893878,17z/data=!3m1!4b1!4m6!3m5!1s0x30e2994e316c363f:0x2a6c77dd93ef4c41!8m2!3d13.7498558!4d100.4915765!16zL20vMDJqaDg5> DIRCTION</a>')">
+        </div>
+
+   
+</body>
+</html>

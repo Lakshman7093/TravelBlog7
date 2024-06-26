@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAVEL</title>
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="india.css">
+    <script src="india.js" defer></script>
+    <link rel="icon" href="travel1.ico">
+
+</head>
+<body onload="colo()" >
+    <div id="a">
+        <video src="./Trvalblack/india.mp4" autoplay muted loop id="india"></video>
+        <h1 id="heading"> Travelled Image Gallery</h1>
+
+    </div>
+    <div id="bigscreen" class="fullscreenimg" style="display:none" onclick="imgV()">
+        <img id="fullimg" src="./pics/elephant.jpg">
+        <h1 id="imgheading">Heading</h1>
+        <p id="imgparagraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut perferendis quia aperiam consequatur obcaecati porro, id incidunt suscipit optio natus maiores architecto unde eaque sit quibusdam temporibus, tempora quasi officiis?
+        </p>
+    </div> 
+    <div id="navbar">
+        <ul id="mainlist">
+            <li class="li"><a href="#">Home</a></li>
+            <li class="li" id="sublistplace">Places
+                <ul id="sublist">
+                    <li class="sli"> <a href="#">India</a></li>
+                    <li class="sli"><a href="dubai.html">Dubai</a></li>
+                    <li class="sli"> <a href="srilanka.html">Srilanka</a></li>
+                    <li class="sli"> <a href="thailand.html">Thailand</a></li>
+                </ul>
+            </li>
+            <li class="li"><a href="#">Info</a></li>
+            <li class="li"><a  href="Login.html">Logout</a></li>
+        </ul>
+    </div>
+        <div class="bodyofgallary">
+            <img src="charminar.png" onclick="imgK(this.src,'CHARMINAR','<a href=https://www.google.com/maps/place/Charminar+(Old+City),+Hyderabad,+Telangana/@17.3540021,78.4749593,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb981e4f77ffff:0x22739ecd400660e7!8m2!3d17.3540425!4d78.4770592!16s%2Fg%2F11f7b3plhc> DIRCTION</a>')" >
+            <img src="tajmahal.png" onclick="imgK(this.src,'TAJMAHAL','<a href=https://www.google.com/maps/dir//Taj+Mahal,+Dharmapuri,+Forest+Colony,+Tajganj,+Agra,+Uttar+Pradesh+282001/@27.1758062,78.0393725,16.59z/data=!4m8!4m7!1m0!1m5!1m1!1s0x39747121d702ff6d:0xdd2ae4803f767dde!2m2!1d78.0421422!2d27.1751448>DIRCTION</a>')">
+            <img src="gateway.png" onclick="imgK(this.src,'GATEWAYOFMUMBAI','<a href=https://www.google.com/maps/place/Gateway+Of+India+Mumbai/@18.9210292,72.8326338,16.27z/data=!4m6!3m5!1s0x3be7d1c73a0d5cad:0xc70a25a7209c733c!8m2!3d18.9219841!4d72.8346543!16zL20vMDJoN3Iy>DIRCTION</a>')"> 
+            <img src="gatewaydelhi.png" onclick="imgK(this.src,'GATEWAYOFDELHI','<a href=https://www.google.com/maps/dir/Hyderabad,+Telangana/Delhi+Gate,+Metro+Station+Delhi+Gate,+Netaji+Subhash+Marg,+Daryaganj,+New+Delhi,+Delhi+110006/@22.9495874,73.9243143,6z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x3bcb99daeaebd2c7:0xae93b78392bafbc2!2m2!1d78.486671!2d17.385044!1m5!1m1!1s0x390cfcd89fd47fe5:0xb94da0e8c9b28aa0!2m2!1d77.2405826!2d28.6411903> DIRCTION</a>')">
+            <img src="badrinaath.png" onclick="imgK(this.src,'BHARDINATH','<a href=https://www.google.com/maps/dir/17.5042406,78.395598/J7FW%2B5VJ+Badrinath+Temple,+Mother+Dairy+Marg,+Vinod+Nagar+East,+West+Vinod+Nagar,+New+Delhi,+Delhi+110092/@22.9439403,73.933144,6z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x390ce4ae304fd1b5:0x3203318db24c4a4e!2m2!1d77.2971508!2d28.6228875> DIRCTION</a>')">
+            <img src="jaisalmar.png" onclick="imgK(this.src,'JAISALMAR','<a href=https://www.google.com/maps/dir/17.5042406,78.395598/Jaisalmer,+Rajasthan+345001/@22.2268011,70.2014373,6z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3947bc28aa1b396b:0xf5ef9bd660d66ee3!2m2!1d70.9083443!2d26.9157487>DIRCTION</a>')">
+            <img src="goa.png" onclick="imgK(this.src,'GOA','<a href=https://www.google.com/maps/dir/17.5042406,78.395598/Goa/@16.5305797,75.1360968,8z/data=!3m1!4b1!4m18!1m8!3m7!1s0x3bbfba106336b741:0xeaf887ff62f34092!2sGoa!3b1!8m2!3d15.2993265!4d74.123996!16zL20vMDFjMW5t!4m8!1m1!4e1!1m5!1m1!1s0x3bbfba106336b741:0xeaf887ff62f34092!2m2!1d74.123996!2d15.2993265> DIRCTION</a>')">
+            <img src="manali.png" onclick="imgK(this.src,'MANALI','<a href=https://www.google.com/maps/dir/17.5042406,78.395598/Manali+Shimla+Tours,+Janakpuri+District+Center,+Janakpuri,+New+Delhi,+Delhi/@22.9786433,73.2151866,6z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x390d04bf0b500001:0x10b998b9fe0766b8!2m2!1d77.0809543!2d28.6300306> DIRCTION</a>')">
+        </div>
+
+   
+</body>
+</html>
